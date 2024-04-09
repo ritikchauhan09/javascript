@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("note.jpg");
+    background-size: 100% 100%;
+}
+
+main button{
+    border-style: none;
+    background: transparent;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.card{
+    margin: 30px;
+    margin-top: 80px;
+    height: 350px;
+    width: 400px;
+    background-image: url("page.jpg");
+    background-size: 100% 100%;
+    box-shadow: 3px 3px 40px burlywood;
+}
+
+.card header{
+    display: flex;
+    justify-content: end;
+}
+.card header img{
+    padding: 5px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}

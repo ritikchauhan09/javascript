@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.head{
+    height: 100px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.head h1{
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+}
+.head img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 54rem;
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
