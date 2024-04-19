@@ -517,3 +517,60 @@
 
 // btn.addEventListener("click", getCat);
 
+
+
+// callback function
+
+// function hello(a, b){
+
+//     console.log(a);
+//     b();
+// }
+
+// let a = "hello";
+// hello(a,function(){
+//     console.log("world");
+// });
+
+
+
+// reverse a string
+
+// let str = "welcome to this javascript course";
+// console.log(str.length)
+// str = str.split(" ");
+// let str2 = "";
+// for(let i=0;i<str.length;i++){
+//     let str1 = str[i];
+//     for(let j=str1.length-1;j>=0;j--){
+//         str2 += str1[j];
+//     }
+//     str2 += " ";
+// }
+// str2 = str2.trim();
+// console.log(str2)
+
+// another method
+
+// let reverseSentence = reverseStr(str, "");
+
+// let reverseWord = reverseStr(reverseSentence, " ")
+
+// function reverseStr(str1, sep){
+//     return str1.split(sep).reverse().join(sep);
+// }
+
+// console.log(reverseWord);
+
+
+
+// check if an object is an array or not USING JQUERY
+
+// let arr = [1,2,3,4];
+// if($.isArray(arr)){
+//     console.log("array")
+// }
+// else{
+//     console.log("not an array");
+// }
+
