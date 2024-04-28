@@ -574,3 +574,86 @@
 //     console.log("not an array");
 // }
 
+
+
+// 
+
+// function createBase(b_num){
+//     return function(n){
+//         return b_num + n;
+//     }
+// }
+
+// var addSix = createBase(6);
+// console.log(addSix(10));
+// console.log(addSix(21));
+
+
+
+// fizz buzz
+
+// for(let i=1;i<=100;i++){
+//     let a = i % 3 == 0;
+//     let b = i % 5 == 0;
+//     console.log(a ? (b ? "fizzbuzz" : "fizz") : b ? "buzz" : i);
+// }
+
+
+// return true if they are anagrams of one another
+
+// let str1 = "Mary";
+// let str2 = "Army";
+
+// function isAnagram(s1,s2){
+//     let a = s1.toLowerCase();
+//     let b = s2.toLowerCase();
+
+//     a = a.split("").sort().join("");
+//     b = b.split("").sort().join("");
+//     console.log(a,b);
+
+//     return a == b;
+// }
+
+// console.log(isAnagram(str1, str2))
+
+
+
+// reverse a string
+
+str = "hello my name is ritik";
+
+// function revString(s){
+//     s = s.split(" ");
+//     let s1 = "";
+//     console.log(s.length);
+//     for(let i = 0; i<s.length; i++){
+//         let str = s[i];
+//         for(let j = str.length - 1 ; j >= 0; j--){
+//             s1 += str[j];
+//         }
+//         s1 += " ";
+//     }
+//     return s1.trim(" ");
+// }
+
+
+
+
+// function revstr(s){
+//     s = s.split(" ");
+//     let s1 = ""
+//     for(let i=s.length-1; i>=0; i--){
+//         s1 += s[i] + " ";
+//     }
+
+//     return s1.trim(" ");
+// }
+
+
+// console.log(revstr(str))
+
+
+
+// check palindrome
+
